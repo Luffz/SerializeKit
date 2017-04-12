@@ -15,6 +15,7 @@
 		80F948F71E9E04A60040423F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80F948F51E9E04A60040423F /* LaunchScreen.storyboard */; };
 		80F949021E9E04A60040423F /* SerializeKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 80F949011E9E04A60040423F /* SerializeKitTests.m */; };
 		80F9490D1E9E04A60040423F /* SerializeKitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 80F9490C1E9E04A60040423F /* SerializeKitUITests.m */; };
+		80F9491C1E9E04B30040423F /* NSObject+SerializeKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 80F9491B1E9E04B30040423F /* NSObject+SerializeKit.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		80F949081E9E04A60040423F /* SerializeKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SerializeKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		80F9490C1E9E04A60040423F /* SerializeKitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SerializeKitUITests.m; sourceTree = "<group>"; };
 		80F9490E1E9E04A60040423F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80F9491A1E9E04B30040423F /* NSObject+SerializeKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SerializeKit.h"; sourceTree = "<group>"; };
+		80F9491B1E9E04B30040423F /* NSObject+SerializeKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SerializeKit.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				80F948EB1E9E04A60040423F /* AppDelegate.m */,
 				80F948ED1E9E04A60040423F /* ViewController.h */,
 				80F948EE1E9E04A60040423F /* ViewController.m */,
+				80F9491A1E9E04B30040423F /* NSObject+SerializeKit.h */,
+				80F9491B1E9E04B30040423F /* NSObject+SerializeKit.m */,
 				80F948F01E9E04A60040423F /* Main.storyboard */,
 				80F948F31E9E04A60040423F /* Assets.xcassets */,
 				80F948F51E9E04A60040423F /* LaunchScreen.storyboard */,
@@ -274,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				80F948EF1E9E04A60040423F /* ViewController.m in Sources */,
+				80F9491C1E9E04B30040423F /* NSObject+SerializeKit.m in Sources */,
 				80F948EC1E9E04A60040423F /* AppDelegate.m in Sources */,
 				80F948E91E9E04A60040423F /* main.m in Sources */,
 			);
